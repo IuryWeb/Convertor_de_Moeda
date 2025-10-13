@@ -1,0 +1,49 @@
+:root {
+    --cor-de-fundo: #B8B8B8;
+    --cor-principal: #9B5F20;
+    --cor-do-texto: #ffffff;
+    --cor-do-card: #734E26;
+    --cor-de-input: #FDEEBC;
+    --texto-fonte: "Allan";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-do-texto);
+    font-family: var(--texto-fonte);
+}
+
+.container {
+    background-color: var(--cor-principal);
+    padding: 1rem;
+    margin-top: 4rem;
+    width: 50vw;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+}
+
+.card {
+    margin-bottom: 5rem;
+    padding: 2rem;
+    
+}
+
+.card__couteudo {
+   color: var(--cor-do-card);
+    padding: 1rem;
+    background-color: var(--cor-do-card);
+}
+
+
+footer {
+    bottom: 0;
+}
