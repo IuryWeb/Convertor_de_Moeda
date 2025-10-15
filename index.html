@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="pricipal">
             <h1>Convertor de Moeda</h1>
         </div>
     </header>
@@ -24,21 +24,23 @@
     <section>
 
         <div class="card">
-            <div  class="card__conteudo">
-                <h2>Escolha a Moeda</h4>
-                    <form>
-                        <label>De:</label>
-                        <input type="number"><br>
-                        <label>Para:</label>
-                        <input type="number">
-                    </form>
+            <div class="card__conteudo container">
+                <h2>Escolha a Moeda</h2>
+                <form class="card__item" id="converterForm">
+                    <label>Valor:</label>
+                    <input type="number" class="card__item card__input"><br>
+                    <label>De:</label>
+                    <input type="number" class="card__item card__input"><br>
+                    <label>Para:</label>
+                    <input type="number" class="card__item card__input">
+                </form>
 
-                    <p class="resultado"></p>
+                <p class="resultado card__item card__resultado"></p>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="fixed_bottom footer">
         <p>&copy;IYTECH</p>
     </footer>
 
